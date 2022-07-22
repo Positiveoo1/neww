@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #546255;
+
+}
+
+.cont {
+color: #fff;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate( -50%, -50%);
+user-select: none;
+font-size: 70px;
+font-family: 'Monofett', cursive; 
+
+}
+
+.themes {
+    width: 250px;
+    height: 200px;
+    border: 1px solid #4b8b6287;
+    display: grid;
+}
+.themes button {
+    border: 1px solid #111;
+    outline: none;
+    background-color: #546255;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    transition: .6s;
+}
+.themes button:nth-child(3):hover {
+background-color: blue;
+}
+.themes button:nth-child(4):hover {
+background-color: dodgerblue;
+}
+.themes button:nth-child(5):hover {
+background-color: green;
+}
+.themes button:nth-child(6):hover {
+background-color: grey;
+}
+.themes button:nth-child(7):hover {
+background-color: red;
+}
+.themes button:nth-child(8):hover {
+background-color: crimson;
+}
+.themes button:nth-child(9):hover {
+background-color: violet;
+}
+.themes button:nth-child(10):hover {
+background-color: gold;
+}
+.themes button:last-child:hover {
+background-color: black;
+}
+.themes h1 {
+    background: linear-gradient(violet, dodgerblue);
+    color: #fff;
+    text-align: center;
+    user-select: none;
+}
+
+
+@media all and (max-width: 500px) {
+    .cont {
+color: #fff;
+position: absolute;
+top: 70%;
+left: 50%;
+transform: translate( -50%, -50%);
+user-select: none;
+font-size: 50px;
+    
+}
+.themes {
+    position: absolute;
+    left: 140px;
+}
+}
